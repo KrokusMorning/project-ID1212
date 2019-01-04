@@ -60,7 +60,6 @@ const auth = {
             }
         }).then((response) => {
             if (response.status === 200) {
-                console.log('response=' + response);
                 return response.json()
             }
         })
@@ -146,7 +145,6 @@ class Login extends React.Component {
             body: data,
         })
             .then((response) => {
-                console.log(response)
             if(!response.ok && response.status === 401) throw new Error("Wrong username or password");
                 else if(!response.ok && response.status === 500) throw new Error("Server error, please try again later.");
             else return response;

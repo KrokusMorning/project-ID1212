@@ -14,12 +14,10 @@ class Images extends Component {
         })
             .then((response) => {
             if (response.status == 200) {
-                console.log('response=' + response);
                 return response.json()
             }
         })
             .then((responseData) => {
-                console.log(responseData)
                 this.setState({images: responseData});
             })
 
