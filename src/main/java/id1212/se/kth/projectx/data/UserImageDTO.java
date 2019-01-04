@@ -1,4 +1,4 @@
-package id1212.se.kth.projectx.imageUpload;
+package id1212.se.kth.projectx.data;
 
 public class UserImageDTO {
     private String name;

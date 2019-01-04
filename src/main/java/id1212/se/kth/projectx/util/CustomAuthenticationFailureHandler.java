@@ -1,4 +1,4 @@
-package id1212.se.kth.projectx.authentication;
+package id1212.se.kth.projectx.util;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.http.HttpStatus;

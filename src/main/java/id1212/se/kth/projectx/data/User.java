@@ -1,4 +1,4 @@
-package id1212.se.kth.projectx.authentication;
+package id1212.se.kth.projectx.data;
 
 import org.hibernate.annotations.LazyCollection;
 import org.hibernate.annotations.LazyCollectionOption;

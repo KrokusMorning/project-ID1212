@@ -1,4 +1,4 @@
-package id1212.se.kth.projectx.authentication;
+package id1212.se.kth.projectx.util;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

@@ -1,6 +1,9 @@
-package id1212.se.kth.projectx.imageUpload;
+package id1212.se.kth.projectx.sevices;
 
-import id1212.se.kth.projectx.authentication.UserDetailsService;
+import id1212.se.kth.projectx.data.UserImage;
+import id1212.se.kth.projectx.data.UserImageDTO;
+import id1212.se.kth.projectx.repositories.UserImageRepository;
+import id1212.se.kth.projectx.util.ImageAlreadyExistException;
 import org.apache.commons.io.IOUtils;
 import org.apache.tomcat.util.codec.binary.Base64;
 import org.springframework.beans.factory.annotation.Autowired;

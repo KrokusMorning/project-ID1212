@@ -1,6 +1,9 @@
-package id1212.se.kth.projectx.imageUpload;
+package id1212.se.kth.projectx.controllers;
 
-import id1212.se.kth.projectx.authentication.UserDetailsService;
+import id1212.se.kth.projectx.sevices.UserDetailsService;
+import id1212.se.kth.projectx.data.UserImage;
+import id1212.se.kth.projectx.data.UserImageDTO;
+import id1212.se.kth.projectx.sevices.UserImageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

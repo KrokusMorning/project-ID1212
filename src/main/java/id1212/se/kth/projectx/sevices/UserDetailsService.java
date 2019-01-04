@@ -1,5 +1,9 @@
-package id1212.se.kth.projectx.authentication;
+package id1212.se.kth.projectx.sevices;
 
+import id1212.se.kth.projectx.data.Role;
+import id1212.se.kth.projectx.data.User;
+import id1212.se.kth.projectx.util.UserAlreadyExistAuthenticationException;
+import id1212.se.kth.projectx.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AccountStatusUserDetailsChecker;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -35,7 +39,7 @@ public class UserDetailsService implements org.springframework.security.core.use
     }
 
 
-    public User saveUser(String username, String password, String role) throws UserAlreadyExistAuthenticationException{
+    public User saveUser(String username, String password, String role) throws UserAlreadyExistAuthenticationException {
         try {
             Set<Role> authorities = new HashSet<>(Arrays.asList(
                     roleService.findByName(role)

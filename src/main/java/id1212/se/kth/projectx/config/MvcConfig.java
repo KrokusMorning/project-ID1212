@@ -1,4 +1,4 @@
-package id1212.se.kth.projectx.application;
+package id1212.se.kth.projectx.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;

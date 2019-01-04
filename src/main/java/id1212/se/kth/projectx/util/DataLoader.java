@@ -1,8 +1,8 @@
-package id1212.se.kth.projectx.application;
+package id1212.se.kth.projectx.util;
 
-import id1212.se.kth.projectx.authentication.Role;
-import id1212.se.kth.projectx.authentication.RoleRepository;
-import id1212.se.kth.projectx.authentication.UserDetailsService;
+import id1212.se.kth.projectx.data.Role;
+import id1212.se.kth.projectx.repositories.RoleRepository;
+import id1212.se.kth.projectx.sevices.UserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;

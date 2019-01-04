@@ -1,5 +1,7 @@
-package id1212.se.kth.projectx.authentication;
+package id1212.se.kth.projectx.controllers;
 
+import id1212.se.kth.projectx.data.User;
+import id1212.se.kth.projectx.sevices.UserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.RequestMapping;

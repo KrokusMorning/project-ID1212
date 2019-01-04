@@ -1,6 +1,4 @@
-package id1212.se.kth.projectx.imageUpload;
-
-import id1212.se.kth.projectx.authentication.User;
+package id1212.se.kth.projectx.data;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

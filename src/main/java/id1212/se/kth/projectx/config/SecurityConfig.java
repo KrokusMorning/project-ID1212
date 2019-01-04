@@ -1,5 +1,7 @@
-package id1212.se.kth.projectx.authentication;
+package id1212.se.kth.projectx.config;
 
+import id1212.se.kth.projectx.util.CustomAuthenticationFailureHandler;
+import id1212.se.kth.projectx.sevices.UserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
